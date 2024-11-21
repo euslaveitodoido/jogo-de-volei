@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz: Vôlei Paralímpico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="quiz-container">
+    <h1>Quiz sobre o Vôlei Paralímpico</h1>
+    <div id="question-container"></div>
+    <ul id="choices-container"></ul>
+    <button id="next-button" onclick="nextQuestion()">Próxima pergunta</button>
+    <div id="feedback-container" style="display: none;"></div>
+    <div id="result-container" style="display: none;">
+        <h2>Fim do Quiz!</h2>
+        <p id="score"></p>
+        <button onclick="restartQuiz()">Reiniciar</button>
+    </div>
+</div>
+
+<script src="quiz.js"></script>
+</body>
+</html>
